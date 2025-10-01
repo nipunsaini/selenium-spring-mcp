@@ -352,7 +352,7 @@ public class BrowserService {
 
     @Tool(name = "browser_tabs", description = "Manage browser tabs")
     public String executeScript(
-            @ToolParam(description = "Tab action to perform e.g ") TabAction action,
+            @ToolParam(description = "Tab action to perform e.g CLOSE, SELECT, NEW") TabAction action,
             @ToolParam(description = "Index of the tab, used for close/select. If not provided for close, current tab will be closed", required = false) Integer index
     ) {
         try {
