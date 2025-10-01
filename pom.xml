@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>selenium-spring-mcp</artifactId>
-	<version>0.0.9</version>
+	<version>1.0.0</version>
 	<name>selenium-spring-mcp</name>
 	<description>Selenium Spring Boot MCP Server</description>
 	<url/>

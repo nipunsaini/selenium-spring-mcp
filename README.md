@@ -2,10 +2,13 @@
 
 A modular command-based Model Context Protocol (MCP) server implementation for **Selenium WebDriver**, using **Spring AI** for intelligent browser automation capabilities. This project supports browser-level control via a standardized set of commands, making it ideal for dynamic testing or AI-assisted browser automation.
 
+## Demo Video
+[![Watch the video](https://img.youtube.com/vi/AN1n27Bb9gM/0.jpg)](https://www.youtube.com/watch?v=AN1n27Bb9gM)
+
 ## 🛠 Pre-requisites
 
 - **Java 17+**
-- **Maven**
+- **Maven (for building project)**
 
 ## Supported browsers
 - **Chrome**
