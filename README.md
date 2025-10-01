@@ -45,10 +45,14 @@ This tool includes a wide range of browser control commands:
 - Add the following config to the `mcp.json` config file of MCP client (Github copilot, Claude desktop etc.)
 ```json
 {
-  "mcpServers": {
-    "selenium-mcp": {
+  "servers": {
+    "selenium-spring-mcp": {
+      "type": "stdio",
       "command": "java",
-      "args": ["-jar", "path/to/jar/file"]
+      "args": [
+        "-jar", 
+        "path/to/jar/file"
+      ]
     }
   }
 }
